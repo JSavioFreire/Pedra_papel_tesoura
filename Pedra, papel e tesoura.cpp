@@ -5,8 +5,7 @@ int main(){
 	char player1[256],player2[256];
 	char novamente[256];
 		printf("			Pedra, papel e tesoura.\n\nJogo para 2 players.");
-		do{
-		printf("\n\n\nPlayer 1, sua vez de jogar...");
+		do{printf("\n\n\nPlayer 1, sua vez de jogar...");
 		scanf("%s",&player1);
 		printf("\n\n\nPlayer 2, sua vez de jogar...");
 		scanf("%s",&player2);
