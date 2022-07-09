@@ -36,7 +36,7 @@ int main(){
 				}else if(strcmp(player2,"tesoura")==0){
 					printf("\n\n		EMPATE!!\n\nOs dois jogaram tesoura.");
 				}else printf("\n\n		O Player 2  digitou %s.\n	So e permitido digitar pedra, papel e tesoura.\n",player2);
-			}else printf("\n\n		O Player 1 digitou %s.\n	So e permitido digitar pedra, papel e tesoura.\n",player1);
+			}
 			printf("\n\n\n\nDeseja jogar novamente?");
 			scanf("%s",&novamente);
     	}while(strcmp(novamente,"sim")==0);
